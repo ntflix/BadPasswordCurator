@@ -2,6 +2,8 @@
 
 Using a list of passwords (e.g. [CrackStation](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm)) and a given password complexity format, we can filter out the passwords from the list that do not satisfy a given set of password complexity requirements.
 
+Input and output files are set inside `main.py`.
+
 ## Setting the Password Complexity Requirements
 Use the following schema to specify a complexity requirement statement.
 Place the JSON inside a file located at `password_requirements.json`.
